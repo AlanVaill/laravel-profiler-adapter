@@ -1,0 +1,16 @@
+{
+    "name": "alanvaill/laravel-profiler-adapter",
+    "type": "library",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.3",
+        "illuminate/contracts": "^5.3",
+        "alanvaill/profiler": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlanVaill\\LaravelProfilerAdapter\\": "src/"
+        }
+    }
+}
